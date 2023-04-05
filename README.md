@@ -3,8 +3,8 @@
 
 ## Instructions 
 Follow the steps shown in the following notion documents:
-- [Part 1](https://www.notion.so/seir-22123/My-Dev-Skills-Lab-5d99b8deb81b4125853fa83cbbd25430)
-- [Part 2](https://www.notion.so/seir-22123/Dev-Skills-Lab-Pt-2-4c07aaba6c8f4958b5aa86bbaf2a6e92)
+- [Part 1](https://equatorial-orange-c6b.notion.site/My-Dev-Skills-Lab-aa6e190502be4c199023a61e2f106a10)
+- [Part 2](https://equatorial-orange-c6b.notion.site/Dev-Skills-Lab-Pt-2-681033559e4047efb7c742da8155ba55)
 
 ## Deliverable
 
