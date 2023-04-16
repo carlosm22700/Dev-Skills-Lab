@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+        <%- include('../partials/head') %>
+<body>
+    <%- include('../partials/header') %>
+
+    <main>
+        <h3>Your Developer Skills:</h3>
+        <% allSkills.forEach(function(skill) { %>
+            <p>
+                <a href="/skills/<%= skill.id %>">
+                    <%= skill.name %>
+                </a>
+            </p>
+        <% }); %>
+    </main>
+
+    <%- include('../partials/footer') %>
+</body>
+</html>
