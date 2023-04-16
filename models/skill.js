@@ -39,5 +39,13 @@ function getAll() {
 function getOne(id) {
   return skills.find(s => s.id === parseInt(id));
 }
-module.exports.getAll = getAll;
-module.exports.getOne = getOne;
+
+function create(skill) {
+  skill.id = Date.now() % 1000000;
+  skills.push(skill);
+}
+module.exports = {
+  getAll,
+  getOne,
+  create
+}

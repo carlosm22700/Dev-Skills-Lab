@@ -11,7 +11,19 @@ function show(req, res) {
         foundSkill: skillModel.getOne(req.params.id)
     });
 }
+
+function newSkill(req, res){
+    res.render('skills/new')
+}
+
+function create(req, res) {
+    console.log(req.body);
+    skillModel.create({name: req.body.skill})
+    res.redirect('/skills')
+}
 module.exports = {
     index,
-    show
+    show,
+    new: newSkill,
+    create
 }
